@@ -10,7 +10,7 @@ En este proyecto, utilizaré una instalación limpia de Kali Linux. Desde dicha 
 
 ## VPN
 
-La VPN que voy a utilizar para obtener una capa extra de seguridad a la hora de interactuar con el exterior, es "OpenVPN". Para ejecutarla, nos tendremos que descargar un fichero de su página web y lanzarlo como administrador desde la consola de Kali.
+La VPN que voy a utilizar para obtener una capa extra de seguridad a la hora de interactuar con el exterior, es OpenVPN. Para ejecutarla, nos tendremos que descargar un fichero de su página web y lanzarlo como administrador desde la consola de Kali.
 
 ![img03]()
 
