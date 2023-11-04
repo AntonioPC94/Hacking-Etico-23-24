@@ -14,7 +14,7 @@ Antes de instalar nada, lo primero que vamos a hacer es actualizar los repositor
 
 Una vez que hayamos actualizado los repositorios, instalaremos el navegador Brave, que es uno de los navegadores más seguros de la actualidad.
 
-Para conservar el anonimato en la red de nuestro Sock Puppet, utilizaremos TOR a partir de dicho navegador.
+Para conservar el anonimato en la red de nuestro Sock Puppet utilizaremos TOR, el cual está integrado en dicho navegador.
 
 ![img03](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/778f5ae3a3f0b603d9fcbb06d65236c6d046a9a4/Pr%C3%A1cticas/img/img03.png)
 
@@ -43,6 +43,12 @@ Para ello, le daremos de alta en dos plataformas de correo: Proton Mail y Gmail:
 ![img06](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/0c4a1f95e8fa112d0078b7bd6b32bd8259fc20f6/Pr%C3%A1cticas/img/img06.png)
 
 ## RRSS
+
+A continuación, vamos a registrar a nuestro Sock Puppet en 2 redes sociales: Twitch y Discord.
+
+### Twitter (X)
+
+### Spotify
 
 # Actividad en la plataforma o RRSS
 
