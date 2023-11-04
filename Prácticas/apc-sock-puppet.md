@@ -44,7 +44,7 @@ Para ello, le daremos de alta en dos plataformas de correo: Proton Mail y Gmail:
 
 ## RRSS
 
-A continuación, vamos a registrar a nuestro Sock Puppet en 2 redes sociales: Twitch y Discord.
+A continuación, vamos a registrar a nuestro Sock Puppet en 2 redes sociales: Twitter (X) y Spotify.
 
 ### Twitter (X)
 
