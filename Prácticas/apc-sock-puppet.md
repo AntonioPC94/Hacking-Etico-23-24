@@ -2,23 +2,52 @@
 
 ![img01](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/39e0b0e1aa1f56a013a4541b851ab7060a9021f0/Pr%C3%A1cticas/img/img01.jpg)
 
-# Máquina Virtual
+Trabajo realizado por: Antonio Peñalver Caro
 
-En este proyecto, utilizaré una instalación limpia de Ubuntu 22.04. Desde dicha distribución, maquinaré todo lo relacionado con el Sock Puppet que voy a crear a lo largo de este proyecto.
+# Índice
+
+1. [Introducción](#introducción)
+2. [¿Qué es un Sock Puppet?](#qué-es-un-sock-puppet)
+3. [Usos habituales de los Sock Puppets](#usos-habituales-de-los-sock-puppets)
+4. [Proceso de Creación del Sock Puppet](#proceso-de-creación-del-sock-puppet)
+5. [Interacción del Sock Puppet](#interacción-del-sock-puppet)
+6. [Reflexiones](#reflexiones)
+
+# Introducción
+
+Como aprendiz en el mundo del hacking ético, en este proyecto me adentraré en el círculo de la ciberinvestigación para poder conocer un poco cómo funcionan los denominados Sock Puppets. A continuación, veremos qué son estos "Muñecos de Calcetín" y cómo funcionan.
+
+# ¿Qué es un Sock Puppet?
+
+Los Sock Puppets, son identidades falsas que alguien crea en línea para engañar a otros usuarios o manipular la opinión pública.
+
+# Usos habituales de los Sock Puppets
+
+Los usos más habituales son:
+
+- **Manipulación de opiniones**: Una persona puede crear múltiples Sock Puppets para hacer que algo parezca más importante de lo que es y la gente lo siga.
+- **Difusión de desinformación**: Pueden difundir información política o social falsa para generar tensión entre personas, empresas, gobiernos, etcétera.
+- **Aumentar la visibilidad**: Una persona poco conocida puede utilizarlos para dar visibilidad, por ejemplo, a sus RRSS.
+- **Acoso en línea**: Una persona puede usarlos para enviar mensajes de odio, difamar o amenazar a otras personas de manera anónima.
+- **Eludir prohibiciones o restriccciones**: Una persona que haya sido bloqueada de una plataforma de internet, puede utilizarlos para volver acceder a ellas y seguir participando en la comunidad.
+
+# Proceso de Creación del Sock Puppet
+
+## Máquina Virtual
+
+El entorno que utilizaré para la creación del Sock Puppet, será una instalación limpia de Ubuntu 22.04. Desde dicha distribución, maquinaré todo lo relacionado con el Sock Puppet que voy a crear a lo largo de este proyecto.
 
 ![img02](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/778f5ae3a3f0b603d9fcbb06d65236c6d046a9a4/Pr%C3%A1cticas/img/img02.png)
 
 Antes de instalar nada, lo primero que vamos a hacer es actualizar los repositorios de la máquina.
 
-## Brave + TOR
+### Brave + TOR
 
 Una vez que hayamos actualizado los repositorios, instalaremos el navegador Brave, que es uno de los navegadores más seguros de la actualidad.
 
 Para conservar el anonimato en la red de nuestro Sock Puppet utilizaremos TOR, el cual está integrado en dicho navegador.
 
 ![img03](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/778f5ae3a3f0b603d9fcbb06d65236c6d046a9a4/Pr%C3%A1cticas/img/img03.png)
-
-# Creación del Sock Puppet
 
 ## Identidad e Imagen
 
@@ -50,7 +79,7 @@ A continuación, vamos a registrar a nuestro Sock Puppet en una red social: Twit
 
 ![img07](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img07.png)
 
-# Actividad en la plataforma o RRSS
+# Interacción del Sock Puppet
 
 Una vez dentro de la plataforma, retocaremos nuestro perfil para que este se vea algo más decente y creíble.
 
@@ -83,6 +112,3 @@ Notificación:
 Por último, vamos a interactuar con la persona que mostré anteriormente dándole "Like", "Retweet" y comentando uno de sus tweets.
 
 ![img15](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14cc5554afec73b36482ec8d7b638e4e7ec7eaa8/Pr%C3%A1cticas/img/img15.png)
-
-# Documentación
-
