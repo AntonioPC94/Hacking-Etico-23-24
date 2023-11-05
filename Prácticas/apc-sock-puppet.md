@@ -97,7 +97,7 @@ Ahora vamos a comenzar a seguir a distintas personas de la plataforma y vamos a 
 
 ![img10](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img10.png)
 
-En la parte posterior de la foto anterior, se muestra un perfil verificado que dio "Like" a una de las publicaciones de nuestro Suck Puppet.
+En la parte posterior de la foto anterior, se muestra un perfil verificado que dio "Like" a una de las publicaciones de nuestro Sock Puppet.
 
 ![img12](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/2e4455989f833a512b5d0776279f44e85a7d51dd/Pr%C3%A1cticas/img/img12.png)
 
