@@ -27,7 +27,7 @@ Los usos más habituales son:
 
 - **Manipulación de opiniones**: Una persona puede crear múltiples Sock Puppets para hacer que algo parezca más importante de lo que es y la gente lo siga.
 - **Difusión de desinformación**: Pueden difundir información política o social falsa para generar tensión entre personas, empresas, gobiernos, etcétera.
-- **Aumentar la visibilidad**: Una persona poco conocida puede utilizarlos para dar visibilidad, por ejemplo, a sus RRSS.
+- **Aumentar la visibilidad**: Una persona poco conocida puede utilizarlos para dar visibilidad a, por ejemplo, sus RRSS.
 - **Acoso en línea**: Una persona puede usarlos para enviar mensajes de odio, difamar o amenazar a otras personas de manera anónima.
 - **Eludir prohibiciones o restriccciones**: Una persona que haya sido bloqueada de una plataforma de internet, puede utilizarlos para volver acceder a ellas y seguir participando en la comunidad.
 
