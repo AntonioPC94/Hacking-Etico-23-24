@@ -45,7 +45,7 @@ Antes de instalar nada, lo primero que vamos a hacer es actualizar los repositor
 
 Una vez que hayamos actualizado los repositorios, instalaremos el navegador Brave, que es uno de los navegadores más seguros de la actualidad.
 
-Para conservar el anonimato en la red de nuestro Sock Puppet utilizaremos TOR, el cual está integrado en dicho navegador.
+Para conservar el anonimato en la red de nuestro Sock Puppet utilizaremos TOR, el cual viene integrado en dicho navegador.
 
 ![img03](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/778f5ae3a3f0b603d9fcbb06d65236c6d046a9a4/Pr%C3%A1cticas/img/img03.png)
 
