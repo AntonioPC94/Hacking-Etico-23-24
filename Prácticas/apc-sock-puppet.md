@@ -111,7 +111,7 @@ Esta persona tiene que ver con la segunda cuenta mostrada en la lista de cuentas
 
 Notificación:
 
-![img14](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/2e4455989f833a512b5d0776279f44e85a7d51dd/Pr%C3%A1cticas/img/img14.png)
+![img14](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/19d04cd0f020305f8c20c5551626746c396290b8/Pr%C3%A1cticas/img/img14.png)
 
 Por último, vamos a interactuar con la persona que mostré anteriormente dándole "Like", "Retweet" y comentando uno de sus tweets.
 
