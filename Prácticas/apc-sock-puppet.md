@@ -119,7 +119,7 @@ En un principio, quería que mi Sock Puppet estuviese registrado en dos platafor
 
 ## Twitter
 
-En Twitter me banearon nada mas crearme la cuenta, aunque luego la pude recuperar para poder seguir elaborando el proyecto.
+En Twitter me banearon nada mas crearme la cuenta, aunque luego la pude recuperar para poder seguir elaborando el proyecto. De hecho, de las primeras cosas que hice al recuperar la cuenta, fue cambiar el nombre de la cuenta. Pasó de ser "Emilian20462302" a "emilito_gallego".
 
 ![img16](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/9c9cb58ab9ece3c5a0cdd8a638f2925ae3da2465/Pr%C3%A1cticas/img/img16.png)
 
