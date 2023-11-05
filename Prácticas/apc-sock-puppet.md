@@ -71,7 +71,7 @@ Este correo se creará para realizar el registro en las distintas páginas.
 
 ### Gmail
 
-Este correo se creará solo y exclusivamente para verificar nuestra identidad en caso de que alguna página web nos lo pida.
+Este correo se creará solo y exclusivamente para verificar la identidad del Sock Puppet en caso de que alguna página web nos lo pida.
 
 ![img06](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/0c4a1f95e8fa112d0078b7bd6b32bd8259fc20f6/Pr%C3%A1cticas/img/img06.png)
 
