@@ -11,7 +11,7 @@ Trabajo realizado por: Antonio Peñalver Caro
 3. [Usos habituales de los Sock Puppets](#usos-habituales-de-los-sock-puppets)
 4. [Proceso de Creación del Sock Puppet](#proceso-de-creación-del-sock-puppet)
 5. [Interacción del Sock Puppet](#interacción-del-sock-puppet)
-6. [Reflexiones](#reflexiones)
+6. [Dificultades Encontradas en el Proyecto](#dificultades-encontradas-en-el-proyecto)
 
 # Introducción
 
@@ -112,3 +112,36 @@ Notificación:
 Por último, vamos a interactuar con la persona que mostré anteriormente dándole "Like", "Retweet" y comentando uno de sus tweets.
 
 ![img15](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14cc5554afec73b36482ec8d7b638e4e7ec7eaa8/Pr%C3%A1cticas/img/img15.png)
+
+# Dificultades Encontradas en el Proyecto
+
+En un principio, quería que mi Sock Puppet estuviese registrado en dos plataformas, pero tuve muchas dificultades a la hora de registrarme en ellas.
+
+## Twitter
+
+En Twitter me banearon nada mas crearme la cuenta, aunque luego la pude recuperar para poder seguir elaborando el proyecto.
+
+![img16](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/9c9cb58ab9ece3c5a0cdd8a638f2925ae3da2465/Pr%C3%A1cticas/img/img16.png)
+
+## Discord
+
+En Discord me pedían continuamente que verificase el correo de la Sock Puppet, pero por más que lo hacía, no me dejaban acceder a la plataforma.
+
+![img17](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/9c9cb58ab9ece3c5a0cdd8a638f2925ae3da2465/Pr%C3%A1cticas/img/img17.png)
+
+## Instagram
+
+En Instagram me pedían el código de confirmación, pero no me dejaban acceder a la plataforma.
+
+![img18](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/9c9cb58ab9ece3c5a0cdd8a638f2925ae3da2465/Pr%C3%A1cticas/img/img18.png)
+
+## Twitch
+
+En Twitch directamente, me venía un mensaje de error diciendo que mi dirección IP era sospechosa y que, por lo tanto, no podía acceder a la plataforma.
+
+![img19](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/9c9cb58ab9ece3c5a0cdd8a638f2925ae3da2465/Pr%C3%A1cticas/img/img19.png)
+
+
+
+
+
