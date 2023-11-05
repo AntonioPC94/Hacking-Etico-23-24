@@ -59,7 +59,7 @@ A continuación, usaremos una IA para generar una imagen de Emiliano, como por e
 
 ## Creación cuentas de correo
 
-Para que el Sock Puppet pueda darse de alta en la mayoría de las plataformas de internet, tendrá que hacerse al menos una cuenta de correo electrónico.
+Para que el Sock Puppet pueda darse de alta en la mayoría de las plataformas de internet, tendrá que tener al menos una cuenta de correo electrónico.
 
 Nosotros en este caso le vamos a dar de alta en dos plataformas de correo: Proton Mail y Gmail:
 
