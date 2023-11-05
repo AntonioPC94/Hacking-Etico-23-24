@@ -22,7 +22,7 @@ Para conservar el anonimato en la red de nuestro Sock Puppet utilizaremos TOR, e
 
 ## Identidad e Imagen
 
-Nuestro Sock Puppet se identificará en las redes como Emiliano Torres Fernández, su fecha de nacimiento será el 26/05/1992 y será natural de Galicia, España. 
+Nuestro Sock Puppet se identificará en la red como Emiliano Torres Fernández, su fecha de nacimiento será el 26/05/1992 y será natural de Vigo, España. 
 
 A continuación, usaremos una IA para generar una imagen de Emiliano, como por ejemplo, unrealperson.com:
 
@@ -30,9 +30,9 @@ A continuación, usaremos una IA para generar una imagen de Emiliano, como por e
 
 ## Creación cuentas de correo
 
-Para que el Sock Puppet pueda darse de alta en la mayoría de las plataformas de internet, tendrá que hacerse con una cuenta de correo electrónico.
+Para que el Sock Puppet pueda darse de alta en la mayoría de las plataformas de internet, tendrá que hacerse al menos una cuenta de correo electrónico.
 
-Para ello, le daremos de alta en dos plataformas de correo: Proton Mail y Gmail:
+Nosotros en este caso le vamos a dar de alta en dos plataformas de correo: Proton Mail y Gmail:
 
 ### Proton Mail: Este correo se creará para realizar el registro en las distintas páginas.
 
@@ -44,13 +44,45 @@ Para ello, le daremos de alta en dos plataformas de correo: Proton Mail y Gmail:
 
 ## RRSS
 
-A continuación, vamos a registrar a nuestro Sock Puppet en 2 redes sociales: Twitter (X) y Spotify.
+A continuación, vamos a registrar a nuestro Sock Puppet en una red social: Twitter (X).
 
 ### Twitter (X)
 
-### Spotify
+![img07](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img07.png)
 
 # Actividad en la plataforma o RRSS
+
+Una vez dentro de la plataforma, retocaremos nuestro perfil para que este se vea algo más decente y creíble.
+
+![img08](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img08.png)
+
+Ahora el siguiente paso, será escribir el primer tweet de nuestro Sock Puppet.
+
+![img09](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img09.png)
+
+Ahora vamos a comenzar a seguir a distintas personas de la plataforma y vamos a interactuar con ellas.
+
+![img10](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img10.png)
+
+En la parte posterior de la foto anterior, se muestra un perfil verificado que dio "Like" a una de las publicaciones de nuestro Suck Puppet.
+
+![img12](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/2e4455989f833a512b5d0776279f44e85a7d51dd/Pr%C3%A1cticas/img/img12.png)
+
+Notificación:
+
+![img11](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/2e4455989f833a512b5d0776279f44e85a7d51dd/Pr%C3%A1cticas/img/img11.png)
+
+Esta persona tiene que ver con la segunda cuenta mostrada en la lista de cuentas seguidas que mostré anteriormente, la cual también le dio "Like" a otra de las publicaciones que hizo el Sock Puppet.
+
+![img13](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/2e4455989f833a512b5d0776279f44e85a7d51dd/Pr%C3%A1cticas/img/img13.png)
+
+Notificación:
+
+![img14](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/2e4455989f833a512b5d0776279f44e85a7d51dd/Pr%C3%A1cticas/img/img14.png)
+
+Por último, vamos a interactuar con la persona que mostré anteriormente dándole "Like", "Retweet" y comentando uno de sus tweets.
+
+![img15](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14cc5554afec73b36482ec8d7b638e4e7ec7eaa8/Pr%C3%A1cticas/img/img15.png)
 
 # Documentación
 
