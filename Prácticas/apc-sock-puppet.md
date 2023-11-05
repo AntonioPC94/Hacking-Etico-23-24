@@ -77,7 +77,7 @@ Este correo se creará solo y exclusivamente para verificar la identidad del Soc
 
 ## RRSS
 
-A continuación, vamos a registrar a nuestro Sock Puppet en una red social: Twitter (X).
+A continuación, vamos a registrar a nuestro Sock Puppet en una red social:
 
 ### Twitter (X)
 
