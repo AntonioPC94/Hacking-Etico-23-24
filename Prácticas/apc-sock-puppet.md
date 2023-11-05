@@ -79,11 +79,11 @@ A continuación, vamos a registrar a nuestro Sock Puppet en una red social: Twit
 
 ![img07](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img07.png)
 
-# Interacción del Sock Puppet
-
 Una vez dentro de la plataforma, retocaremos nuestro perfil para que este se vea algo más decente y creíble.
 
 ![img08](https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/cd51573823be09ccb2d5b837496b0d58e0ebc502/Pr%C3%A1cticas/img/img08.png)
+
+# Interacción del Sock Puppet
 
 Ahora el siguiente paso, será escribir el primer tweet de nuestro Sock Puppet.
 
