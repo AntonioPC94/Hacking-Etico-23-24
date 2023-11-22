@@ -118,7 +118,7 @@ En los resultados obtenidos anteriormente con theHarvester, podremos visualizar 
 
 # Información Adicional
 
-La información recopilada a continuación nos servirá para poder llevar a cabo las diferentes técnicas usadas en el OSINT activo, como por ejemplo, la ingeniería social.
+La información recopilada a continuación, nos servirá para poder llevar a cabo las diferentes técnicas usadas en el OSINT activo, como por ejemplo, la ingeniería social.
 
 ## ASN Subdominio
 
