@@ -139,7 +139,7 @@ nombre.primerapellido@elpozo.com
 </p>
 
 Accedimos a dicha página y a la derecha de la misma, vimos los perfiles de los distintos empleados que tenian un correo de empresa creado con dicho formato. 
-A raíz de ese descubrimiento, pudimos observar que la información mostrada en dicha página, era extraída de sitios web como LinkedIn. Ya que dichos trabajadores, tienen esa información pública en dicha web.
+A raíz de ese descubrimiento, pudimos observar que la información mostrada en dicha página, era extraída de sitios web como LinkedIn. Ya que dichos trabajadores, tienen esa información publicada en dicha web.
 
 Para poder acceder a toda la información, nos registramos en la página web "www.rocketreach.co" y "www.linkedin.com" con el Sock Puppet que creamos en prácticas anteriores.
 
