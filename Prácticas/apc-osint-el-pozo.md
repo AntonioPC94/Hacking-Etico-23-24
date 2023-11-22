@@ -15,7 +15,7 @@ Trabajo realizado por: Antonio Peñalver Caro
 3. [Servidores DNS](#servidores-dns)
 4. [Servidores de Correo](#servidores-de-correo)
 5. [Subdominios](#subdominios)
-6. [Información Adicional](información-adicional)
+6. [Información Adicional](#información-adicional)
 
 # Introducción
 
