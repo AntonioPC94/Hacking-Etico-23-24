@@ -123,7 +123,7 @@ En los resultados obtenidos anteriormente con theHarvester, podremos visualizar 
 Mirando los resultados proporcionados por la página "www.dnsdumpster.com", vimos que había un ASN asociado a dos de los subdominios de la empresa. Dicho ASN, era el proveedor de servidores virtuales privados: Digital Ocean. Casualmente, la localización de dicho ASN, coincide con la del servidor de correos de la empresa.
 
 <p align="center">
-  <img src="" alt="img33"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/e61ec1cb773e7b3b311ddf10f5d0faf85be04bad/Pr%C3%A1cticas/img/img33.png" alt="img33"/>
 </p>
 
 ## Correo electrónico empleado/a
@@ -135,7 +135,7 @@ En el primer resultado de búsqueda, localizamos una página llamada "www.rocket
 nombre.primerapellido@elpozo.com
 
 <p align="center">
-  <img src="" alt="img34"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/e61ec1cb773e7b3b311ddf10f5d0faf85be04bad/Pr%C3%A1cticas/img/img34.png" alt="img34"/>
 </p>
 
 Accedimos a dicha página y a la derecha de la misma, vimos los perfiles de los distintos empleados que tenian un correo de empresa creado con dicho formato. 
@@ -146,7 +146,7 @@ Para poder acceder a toda la información, nos registramos en la página web "ww
 ### Juan Cánovas Fuertes
 
   <p align="center">
-    <img src="" alt="img35"/>
+    <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/e61ec1cb773e7b3b311ddf10f5d0faf85be04bad/Pr%C3%A1cticas/img/img35.png" alt="img35"/>
   </p>
 
   - Estudios: Seminario anual especializado en la cadena agroalimentaria. Licenciatura en dirección y administración de empresas, Dirección general y RRHH. Máster de             administración de negocios y dirección comercial y marketing.
@@ -174,7 +174,7 @@ Para poder acceder a toda la información, nos registramos en la página web "ww
 ### Eric Duhamel
 
  <p align="center">
-    <img src="" alt="img36"/>
+    <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/e61ec1cb773e7b3b311ddf10f5d0faf85be04bad/Pr%C3%A1cticas/img/img36.png" alt="img36"/>
   </p>
   
   - Puesto: Sales Manager Europe and Americas
@@ -185,11 +185,13 @@ Para poder acceder a toda la información, nos registramos en la página web "ww
   - LinkedIn: https://www.linkedin.com/in/eric-duhamel-b847351/
   - Facebook: https://www.facebook.com/eric.duhamel.96/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&                            show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0
 
+Nota: Habían muchos más, pero por no alargar tanto la actividad, he puesto los que has visto.
+
 ## Mapa DNS
 
 Por último, mostraremos un mapa DNS de la empresa, el cual lo sacaremos de la páguina "www.dnsdumpster.com":
 
 <p align="center">
-  <img src="" alt="img34"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/e61ec1cb773e7b3b311ddf10f5d0faf85be04bad/Pr%C3%A1cticas/img/img37.png" alt="img37"/>
 </p>
 
