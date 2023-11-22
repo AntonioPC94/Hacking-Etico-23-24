@@ -33,7 +33,7 @@ En esta actividad, realizaremos OSINT pasivo a la empresa de El Pozo. Para ello,
 Para poder saber cuál es el sistema autónomo asociado a la dirección IP del dominio de la empresa, primeramente tendremos que saber cuál es dicha dirección. Para ello, nos iremos a la página "www.who.is" y buscaremos en el registro "A" del DNS de la empresa.
 
 <p align="center">
-  <img src="" alt="img21"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img21.png" alt="img21"/>
 </p>
 
 Una vez encontrada la dirección, nos iremos a una página de búsquedas de AS, concretamente a "www.stat.ripe.net". Una vez que hayamos abierto la página, colocaremos la dirección IP de la empresa en la barra de búsquedas y le daremos a "Buscar".
@@ -41,11 +41,11 @@ Una vez encontrada la dirección, nos iremos a una página de búsquedas de AS, 
 Según esta página, el AS de la empresa es: MAINT-AS3352, el cual corresponde con Telefónica.
 
 <p align="center">
-  <img src="" alt="img22"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img22.png" alt="img22"/>
 </p>
 
 <p align="center">
-  <img src="" alt="img23"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img23.png" alt="img23"/>
 </p>
 
 ## Proveedor de Servicios de Internet (ISP)
@@ -57,11 +57,11 @@ Siendo Telefónica el AS de la empresa, es muy probable que esta también sea su
 Aparte de la dirección IP hayada anteriormente con el WHOIS, con la herramienta theHarvester encontraremos las siguientes direcciones IP:
 
 <p align="center">
-  <img src="" alt="img24"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img24.png" alt="img24"/>
 </p>
 
 <p align="center">
-  <img src="" alt="img25"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img25.png" alt="img25"/>
 </p>
 
 ## Datos de contacto
@@ -69,11 +69,11 @@ Aparte de la dirección IP hayada anteriormente con el WHOIS, con la herramienta
 Los datos de contacto de la empresa, los sacaremos realizando una búsqueda por Internet:
 
 <p align="center">
-  <img src="" alt="img26"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img26.png" alt="img26"/>
 </p>
 
 <p align="center">
-  <img src="" alt="img27"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img27.png" alt="img27"/>
 </p>
 
 ## Correos electrónicos
@@ -81,7 +81,7 @@ Los datos de contacto de la empresa, los sacaremos realizando una búsqueda por 
 Con la herramienta theHarvester, podremos encontrar las siguientes direcciones de correo:
 
 <p align="center">
-  <img src="" alt="img28"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img28.png" alt="img28"/>
 </p>
 
 Dos de dichos correos parecen ser de alguien que trabaja en la empresa, seguramente nos sirvan luego para seguir recopilando información.
@@ -91,7 +91,7 @@ Dos de dichos correos parecen ser de alguien que trabaja en la empresa, segurame
 En la página "www.dnsdumpster.com", podremos encontrar los servidores DNS de la empresa:
 
 <p align="center">
-  <img src="" alt="img29"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img29.png" alt="img29"/>
 </p>
 
 # Servidores de Correo
@@ -99,11 +99,11 @@ En la página "www.dnsdumpster.com", podremos encontrar los servidores DNS de la
 La empresa cuenta con un servidor de correos ubicado en Netherlands, el cual podremos visualizar tanto en el registro MX que mostramos anteriormente, como en los resultados obtenidos en la página "www.dnsdumpster.com".
 
 <p align="center">
-  <img src="" alt="img30"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img30.png" alt="img30"/>
 </p>
 
 <p align="center">
-  <img src="" alt="img31"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img31.png" alt="img31"/>
 </p>
 
 # Subdominios
@@ -111,7 +111,7 @@ La empresa cuenta con un servidor de correos ubicado en Netherlands, el cual pod
 En los resultados obtenidos anteriormente con theHarvester, podremos visualizar los subdominios pertenecientes a la empresa:
 
 <p align="center">
-  <img src="" alt="img32"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img32.png" alt="img32"/>
 </p>
 
 # Información Adicional
