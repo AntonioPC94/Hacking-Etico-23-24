@@ -183,8 +183,7 @@ Para poder acceder a toda la información, nos registramos en la página web "ww
   - Correo Personal: yourlimu@yahoo.com
   - Otros correos: itelnet2000@yahoo.com // mysynaura@yahoo.com // juanpablo.olalla@elpozo.com
   - LinkedIn: https://www.linkedin.com/in/eric-duhamel-b847351/
-  - Facebook: https://www.facebook.com/eric.duhamel.96/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&                            show_community_review_changes=0&show_community_rollback=0&show_follower_visibility_disclosure=0
-
+  - Facebook: https://www.facebook.com/eric.duhamel.96/?show_switched_toast=0&show_invite_to_follow=0&show_switched_tooltip=0&show_podcast_settings=0&                          
 Nota: Habían muchos más, pero por no alargar tanto la actividad, he puesto los que has visto.
 
 ## Mapa DNS
