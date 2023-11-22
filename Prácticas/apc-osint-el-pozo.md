@@ -118,6 +118,8 @@ En los resultados obtenidos anteriormente con theHarvester, podremos visualizar 
 
 # Información Adicional
 
+La información recopilada a continuación nos servirá para poder llevar a cabo las diferentes técnicas usadas en el OSINT activo, como por ejemplo, la ingeniería social.
+
 ## ASN Subdominio
 
 Mirando los resultados proporcionados por la página "www.dnsdumpster.com", vimos que había un ASN asociado a dos de los subdominios de la empresa. Dicho ASN, era el proveedor de servidores virtuales privados: Digital Ocean. Casualmente, la localización de dicho ASN, coincide con la del servidor de correos de la empresa.
