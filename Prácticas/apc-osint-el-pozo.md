@@ -91,7 +91,7 @@ Dos de dichos correos parecen ser de alguien que trabaja en la empresa, segurame
 En la página "www.dnsdumpster.com", podremos encontrar los servidores DNS de la empresa:
 
 <p align="center">
-  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/14c89571d59e72141be0db816971857ff470f57d/Pr%C3%A1cticas/img/img29.png" alt="img29"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/13d92528c544e86ad31adce43931a7fd1978d25f/Pr%C3%A1cticas/img/img29.png" alt="img29"/>
 </p>
 
 # Servidores de Correo
