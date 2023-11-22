@@ -19,7 +19,7 @@ Trabajo realizado por: Antonio Peñalver Caro
 
 # Introducción
 
-En esta actividad, realizaremos OSINT pasivo a la empresa El Pozo. Para ello, usaremos algunas técnicas y herramientas de OSINT vistas en clase. En general usaré las siguientes herramientas y páginas web:
+En esta actividad, realizaremos OSINT pasivo a la empresa de El Pozo. Para ello, usaremos algunas técnicas y herramientas de OSINT vistas en clase. En general, usaremos las siguientes herramientas y páginas web:
 
 - theHarvester
 - www.who.is
@@ -30,15 +30,15 @@ En esta actividad, realizaremos OSINT pasivo a la empresa El Pozo. Para ello, us
 
 ## Sistema Autónomo (AS)
 
-Para poder saber cuál es el sistema autónomo asociado a la dirección IP del dominio de ElPozo, primeramente tendremos que saber cuál es dicha dirección. Para ello, nos iremos al WHOIS y buscaremos en el registro "A" del DNS la dirección IP que estamos buscando.
+Para poder saber cuál es el sistema autónomo asociado a la dirección IP del dominio de la empresa, primeramente tendremos que saber cuál es dicha dirección. Para ello, nos iremos a la página "www.who.is" y buscaremos en el registro "A" del DNS de la empresa.
 
 <p align="center">
   <img src="" alt="img21"/>
 </p>
 
-Una vez encontrada la dirección, nos iremos a una página de búsqueda de AS, concretamente a "www.stat.ripe.net". Una vez que hayamos abierto la página, colocaremos la dirección IP de ElPozo en la barra de búsqueda y le daremos a "Buscar".
+Una vez encontrada la dirección, nos iremos a una página de búsquedas de AS, concretamente a "www.stat.ripe.net". Una vez que hayamos abierto la página, colocaremos la dirección IP de la empresa en la barra de búsquedas y le daremos a "Buscar".
 
-Según esta página, el AS de ElPozo es: MAINT-AS3352, el cual corresponde con Telefónica.
+Según esta página, el AS de la empresa es: MAINT-AS3352, el cual corresponde con Telefónica.
 
 <p align="center">
   <img src="" alt="img22"/>
@@ -54,25 +54,77 @@ Siendo Telefónica el AS de la empresa, es muy probable que esta también sea su
 
 ## Direcciones IP
 
-Aparte de la dirección IP que mostré antes con el WHOIS, con la herramienta theHarvester he podido encontrar las siguientes:
+Aparte de la dirección IP hayada anteriormente con el WHOIS, con la herramienta theHarvester encontraremos las siguientes direcciones IP:
 
 <p align="center">
   <img src="" alt="img24"/>
 </p>
 
-## Datos de contacto:
+<p align="center">
+  <img src="" alt="img25"/>
+</p>
+
+## Datos de contacto
 
 Los datos de contacto de la empresa, los sacaremos realizando una búsqueda por Internet:
 
+<p align="center">
+  <img src="" alt="img26"/>
+</p>
 
-## Correos electrónicos:
+<p align="center">
+  <img src="" alt="img27"/>
+</p>
+
+## Correos electrónicos
+
+Con la herramienta theHarvester, podremos encontrar las siguientes direcciones de correo:
+
+<p align="center">
+  <img src="" alt="img28"/>
+</p>
+
+Dos de dichos correos parecen ser de alguien que trabaja en la empresa, seguramente nos sirvan luego para seguir recopilando información.
 
 # Servidores DNS
 
+En la página "www.dnsdumpster.com", podremos encontrar los servidores DNS de la empresa:
+
+<p align="center">
+  <img src="" alt="img29"/>
+</p>
+
 # Servidores de Correo
+
+La empresa cuenta con un servidor de correos ubicado en Netherlands, el cual podremos visualizar tanto en el registro MX que mostramos anteriormente, como en los resultados obtenidos en la página "www.dnsdumpster.com".
+
+<p align="center">
+  <img src="" alt="img30"/>
+</p>
+
+<p align="center">
+  <img src="" alt="img31"/>
+</p>
 
 # Subdominios
 
+En los resultados obtenidos anteriormente con theHarvester, podremos visualizar los subdominios pertenecientes a la empresa:
+
+<p align="center">
+  <img src="" alt="img32"/>
+</p>
+
 # Información Adicional
 
+## ASN Subdominio
+
+Mirando los resultados proporcionados por la página "www.dnsdumpster.com", vimos que había un ASN asociado a uno de los subdominios de la empresa.
+
+## Mapa DNS
+
+Por último, mostraremos un mapa DNS de la empresa, el cual lo sacaremos de la páguina "www.dnsdumpster.com":
+
+<p align="center">
+  <img src="" alt="img34"/>
+</p>
 
