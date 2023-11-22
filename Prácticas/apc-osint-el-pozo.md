@@ -191,6 +191,6 @@ Nota: Habían muchos más, pero por no alargar tanto la actividad, he puesto los
 Por último, mostraremos un mapa DNS de la empresa, el cual lo sacaremos de la páguina "www.dnsdumpster.com":
 
 <p align="center">
-  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/e6c0a51e041e90afd8a2d60f9828b74ab951bcf0/Pr%C3%A1cticas/img/img37.png" alt="img37"/>
+  <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/507dcf84ed98c1c592104d394950f5dbb1410301/Pr%C3%A1cticas/img/img37.png" alt="img37"/>
 </p>
 
