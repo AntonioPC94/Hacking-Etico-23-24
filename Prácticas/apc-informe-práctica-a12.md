@@ -117,8 +117,6 @@ Trabajo realizado por: Antonio Peñalver Caro
 
 **9. Cualquier otra información que consideres relevante de incorporar en el informe.**
 
-- La siguiente información ha sido sacada a raíz del lanzamiento de los script "auth" de NMap.
-
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/771fd418c171c8ee9d3a155dfc1aaa468e44a65a/Pr%C3%A1cticas/img/img50.png" width="30%" />
     <img src="https://github.com/AntonioPC94/Hacking-Etico-23-24/blob/771fd418c171c8ee9d3a155dfc1aaa468e44a65a/Pr%C3%A1cticas/img/img51.png" width="35%"/>
@@ -160,6 +158,12 @@ En este informe vamos a ver un poco lo que hemos conseguido encontrar gracias a 
 
 - Con el comando **"nmap -p80,8080 -script-discovery (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos sacar un "Directory Listing" con información muy        interesante sobre, por ejemplo, un CMS, un administrador de BDD, etcétera, y una página web elaborada en Javascript que también sería interesante de       investigar.
   
-- Con el comando **"nmap -p- -script=default (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos 
+- Con el comando **"nmap -p- -script=default (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos encontrar, por ejemplo, claves SSH, certificados SSL y          información sobre el servicio SMB de la máquina.
+
+- A raíz del lanzamiento de los scripts "auth" de NMap, conseguí sacar la siguiente información relevante:
+
+  - El servicio SSH admite el acceso por clave pública y por contraseña.
+  - El servicio MySQL no tiene contraseña de acceso.
+  - Usuario de SMB llamado: "chewbacca", el cual nos podría servir para más adelante en nuestra auditoría.
 
 
