@@ -131,34 +131,34 @@ Trabajo realizado por: Antonio Peñalver Caro
 
 En este informe vamos a ver un poco lo que hemos conseguido encontrar gracias a los escaneos realizados anteriormente:
 
-- Con el comando **"netdiscover -r (DirecciónRed)"**, descubrimos los distintos equipos que estaban conectados a la misma red que nosotros. De entre todas   las direcciones IP, localizamos la que fue nuestro objetivo y la comenzamos a escanear.
+- Con el comando **"netdiscover -r (DirecciónRed)"**, descubrimos los distintos equipos que estaban conectados a la misma red que nosotros. De entre todas las direcciones IP, localizamos la que era nuestro objetivo y la comenzamos a escanear.
 
   Nota: También podríamos haber utilizado el comando: **"nmap -sn (DirecciónRed)"**.
   
-- Con el comando **"nmap -O (DirecciónIPMáquinaVulnerable)**, pudimos descubrir cuál es sistema operativo de la máquina vulnerable. En este caso, se          trataba de una máquina Linux, de la cual no sabemos todavía la distribución que está utilizando.
+- Con el comando **"nmap -O (DirecciónIPMáquinaVulnerable)**, pudimos descubrir cuál es sistema operativo de la máquina vulnerable. En este caso, se trataba de una máquina Linux, de la cual no sabemos todavía la distribución que está utilizando.
   
-- Con el comando **"nmap -p- -sT -T4 (DirecciónIPMáquinaVulnerable)**, pudimos descubrir los distintos puertos TCP que tiene abiertos la máquina             vulnerable.
+- Con el comando **"nmap -p- -sT -T4 (DirecciónIPMáquinaVulnerable)**, pudimos descubrir los distintos puertos TCP que tiene abiertos la máquina vulnerable.
 
   Entre ellos, destacaban:
   
-  - Puerto 21 (FTP): A este podríamos intentar acceder como usuario "anonymous" para poder recabar algo de información sobre usuarios o sobre el sistema       en general.
+  - Puerto 21 (FTP): A este podríamos intentar acceder como usuario "anonymous" para poder recabar algo de información sobre usuarios o sobre el sistema en general.
   - Puerto 22 (SSH): A este podríamos intentar acceder más adelante cuando tuviésemos algunas credenciales de usuario.
-  - Puerto 80 (HTTP): A este podríamos intentar acceder para poder sacar información de algún CMS activo o de algún "Directory Listing" que hayamos            encontrado mediante "Fuzzing".
+  - Puerto 80 (HTTP): A este podríamos intentar acceder para poder sacar información de algún CMS activo o de algún "Directory Listing" que hayamos encontrado mediante "Fuzzing".
   - Puerto 445 (SMB): A este podríamos intentar acceder a archivos y recursos compartidos por los usuarios del sistema.
-  - Puerto 3306 (MySQL): A este podríamos intentar acceder para poder localizar alguna base de datos que contenga información sobre credenciales de            usuario o cualquier otra información relevante.
+  - Puerto 3306 (MySQL): A este podríamos intentar acceder para poder localizar alguna base de datos que contenga información sobre credenciales de usuario o cualquier otra información relevante.
   - Puerto 8080 (HTTP-Proxy): A este podríamos intentar acceder para ver si contiene información sobre alguna página web u otra información relevante.
 
 - Con el comando **"nmap -p- -sU -T4 (DirecciónIPMáquinaVulnerable)**, no pude sacar ningún puerto UDP activo de la máquina vulnerada.
   
-- Con el comando **"nmap -p21,22,88,445,631,3000,3306,3500,6697,8080,8081 -sT -sV -T4 (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos descubrir las          versiones de los distintos servicios que detectamos en puntos anteriores. Esto nos abre un abanico de posibilidades para poder buscar las distintas        debilidades o vulnerabilidades que pudiesen tener las versiones de dichos servicios.
+- Con el comando **"nmap -p21,22,88,445,631,3000,3306,3500,6697,8080,8081 -sT -sV -T4 (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos descubrir las versiones de los distintos servicios que detectamos en puntos anteriores. Esto nos abre un abanico de posibilidades para poder buscar las distintas debilidades o vulnerabilidades que    pudiesen tener las versiones de dichos servicios.
   
 - Con el comando **"nmap -script=auth (DirecciónIPMáquinaVulnerable) -vvv"**, no pude sacar ningún usuario cuya contraseña estuviese vacía.
 
-- Con el comando **"nmap -script=vuln (DirecciónIPMáquinaVulnberable) -vvv"**, pudimos descubrir varias vulnerabilidades en los distintos servicios que      detectamos en puntos anteriores. Este punto se cumplimenta perfectamente con el que vimos anteriormente de las versiones de cada uno de los servicios,     haciendo que nuestros vectores de ataque, puedan llegar a ser más efectivos.
+- Con el comando **"nmap -script=vuln (DirecciónIPMáquinaVulnberable) -vvv"**, pudimos descubrir varias vulnerabilidades en los distintos servicios que detectamos en puntos anteriores. Este punto se cumplimenta perfectamente con el que vimos anteriormente de las versiones de cada uno de los servicios, haciendo que nuestros          vectores de ataque, puedan llegar a ser más efectivos.
 
-- Con el comando **"nmap -p80,8080 -script-discovery (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos sacar un "Directory Listing" con información muy        interesante sobre, por ejemplo, un CMS, un administrador de BDD, etcétera, y una página web elaborada en Javascript que también sería interesante de       investigar.
+- Con el comando **"nmap -p80,8080 -script-discovery (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos sacar un "Directory Listing" con información muy interesante sobre, por ejemplo, un CMS, un administrador de BDD, etcétera, y una página web elaborada en Javascript que también sería interesante de investigar.
   
-- Con el comando **"nmap -p- -script=default (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos encontrar, por ejemplo, claves SSH, certificados SSL y          información sobre el servicio SMB de la máquina.
+- Con el comando **"nmap -p- -script=default (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos encontrar, por ejemplo, claves SSH, certificados SSL y información sobre el servicio SMB de la máquina.
 
 - A raíz del lanzamiento de los scripts "auth" de NMap, conseguí sacar la siguiente información relevante:
 
