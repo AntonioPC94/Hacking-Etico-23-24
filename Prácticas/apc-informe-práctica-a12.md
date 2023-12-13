@@ -154,7 +154,8 @@ En este informe vamos a ver un poco lo que hemos conseguido encontrar gracias a 
   
 - Con el comando **"nmap -script=auth (DirecciónIPMáquinaVulnerable) -vvv"**, no pude sacar ningún usuario cuya contraseña estuviese vacía.
 
-- Con el comando **"nmap -script=vuln (DirecciónIPMáquinaVulnberable) -vvv"**, pudimos descubrir varias vulnerabilidades en los distintos servicios que detectamos en puntos anteriores. Este punto se cumplimenta perfectamente con el que vimos anteriormente de las versiones de cada uno de los servicios, haciendo que nuestros          vectores de ataque, puedan llegar a ser más efectivos.
+- Con el comando **"nmap -script=vuln (DirecciónIPMáquinaVulnberable) -vvv"**, pudimos descubrir varias vulnerabilidades en los distintos servicios que detectamos en puntos anteriores. Este punto se cumplimenta perfectamente con el que vimos anteriormente de las versiones de cada uno de los servicios, ya que con dicha 
+  información, nuestros vectores de ataque, pueden llegar a ser más efectivos.
 
 - Con el comando **"nmap -p80,8080 -script-discovery (DirecciónIPMáquinaVulnerable) -vvv"**, pudimos sacar un "Directory Listing" con información muy interesante sobre, por ejemplo, un CMS, un administrador de BDD, etcétera, y una página web elaborada en Javascript que también sería interesante de investigar.
   
