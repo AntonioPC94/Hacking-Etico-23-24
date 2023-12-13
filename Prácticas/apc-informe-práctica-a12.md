@@ -34,7 +34,7 @@ Trabajo realizado por: Antonio Peñalver Caro
 
 3. **Identifica puertos/servicios abiertos (TCP/UDP).**
 
-## TCP
+**TCP**
 
 <p align="left">
 <img src="https://github.com/AntonioPC94/Analisis-Forense-23-24/blob/e823629d1ce58acb731dd645b37e3b5a8512f738/Pr%C3%A1cticas/img/img36.png" width="30%" /> 
@@ -44,7 +44,7 @@ Trabajo realizado por: Antonio Peñalver Caro
     <img src="https://github.com/AntonioPC94/Analisis-Forense-23-24/blob/e823629d1ce58acb731dd645b37e3b5a8512f738/Pr%C3%A1cticas/img/img37.png" width="40%"/>
 </div>
 
-## UDP
+**UDP**
 
 <p align="left">
 <img src="https://github.com/AntonioPC94/Analisis-Forense-23-24/blob/745d0fed88846a610789d4812ef8704d175e5ef2/Pr%C3%A1cticas/img/img38.png" width="30%" /> 
