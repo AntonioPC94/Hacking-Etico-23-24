@@ -54,7 +54,7 @@ Trabajo realizado por: Antonio Peñalver Caro
     <img src="https://github.com/AntonioPC94/Analisis-Forense-23-24/blob/e823629d1ce58acb731dd645b37e3b5a8512f738/Pr%C3%A1cticas/img/img39.png" width="40%"/>
 </div>
 
-- No hay puertos UDP abiertos.
+- No existe respuesta por parte de ningún puerto UDP.
 
 #
 
