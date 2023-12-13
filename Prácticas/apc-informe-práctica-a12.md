@@ -121,7 +121,7 @@ Trabajo realizado por: Antonio Peñalver Caro
 
 **9. Cualquier otra información que consideres relevante de incorporar en el informe.**
 
-- La siguiente información fue sacada a raíz del lanzamiento de los script "auth" de NMap.
+- La siguiente información ha sido sacada a raíz del lanzamiento de los script "auth" de NMap.
 
 <div style="display: flex; justify-content: space-between;">
     <img src="https://github.com/AntonioPC94/Analisis-Forense-23-24/blob/745d0fed88846a610789d4812ef8704d175e5ef2/Pr%C3%A1cticas/img/img43.png" width="30%" />
