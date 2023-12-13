@@ -137,6 +137,10 @@ Trabajo realizado por: Antonio Peñalver Caro
 
 En este informe vamos a ver un poco lo que hemos conseguido encontrar gracias a los escaneos realizados anteriormente:
 
-- 
+- Con el comando "netdiscover", descubrimos los distintos equipos que estaban conectados en la misma red que nosotros. De entre todas las direcciones IP, localizamos la que fue nuestro objetivo.
+
+  Nota: También podríamos haber aplicado el comando: "nmap -sn (DirecciónRed)".
+  
+-
 
 
