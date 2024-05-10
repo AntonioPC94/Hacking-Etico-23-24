@@ -67,7 +67,17 @@ b) Por qué dice "&" cuando miráis un link (como el que aparece a la portada de
 
 A la hora de escapar el carácter "&" como "&amp" en URLs dentro del HTML, es una práctica necesaria para garantizar que el HTML sea válido y funcione correctamente, evitando problemas de interpretación y seguridad.
 
-c) Explicad cuál es el problema de show_comments.php, y cómo lo arreglaríais. Para resolver este apartado, podéis mirar el código fuente de esta página.
+c) Explica cuál es el problema de show_comments.php, y cómo lo arreglaríais. Para resolver este apartado, podéis mirar el código fuente de esta página.
+
+El código fuente de la página contiene varios fallos, pero en relación con el XSS, los datos del formulario no se validan ni se sanean antes de ser utilizados.
+
+Pasa solucionar este problema, se podría implementar una validación de lado del cliente y del servidor para los datos ingresados en los formularios y utilizar funciones de saneamiento adecuadas para prevenir ataques.
+
+d) Descubre si hay alguna otra página que esté afectada por esta misma vulnerabilidad. En caso positivo, explicad cómo lo habéis descubierto.
+
+
+
+
 
 
 
