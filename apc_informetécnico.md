@@ -6,6 +6,8 @@ Lo primero que haremos es comprobar que este formulario es vulnerable a una inye
 
 a) Dad un ejemplo de combinación de usuario y contraseña que provoque un error en la consulta SQL generada por este formulario. Apartir del mensaje de error obtenido, decid cuál es la consulta SQL que se ejecuta, cuál de los campos introducidos al formulario utiliza y cuál no.
 
+![SQLI_1]()
+
 | Tabla 1 |   |
 |-------------------------|---|
 | Escribo valores ... |  " |
@@ -26,6 +28,8 @@ b) Gracias a la SQL Injection del apartado anterior, sabemos que este formulario
 - dragon
 
 Dad un ataque que, utilizando este diccionario, nos permita impersonar un usuario de esta aplicación y acceder en nombre suyo. 
+
+![SQLI_2]()
 
 Tened en cuenta que no sabéis ni cuántos usuarios hay registrados en la aplicación, ni los nombres de estos.
 
@@ -63,6 +67,14 @@ a) Para ver si hay un problema de XSS, crearemos un comentario que muestre un al
 | Introduzco el mensaje ...        | ``` <script>alert("Hola, soy Peña");</script>``` |
 | En el formulario de la página... | add_comment.php?id=2 (Félix Alfonso)             |
 
+## Mensaje
+
+![XSS_1]()
+
+## Alerta
+
+![XSS_2]()
+
 b) Por qué dice "&" cuando miráis un link (como el que aparece a la portada de esta aplicación pidiendo que realices un donativo) con parámetros GET dentro de código html si en realidad el link es sólo con "&"?
 
 A la hora de escapar el carácter "&" como "&amp" en URLs dentro del HTML, es una práctica necesaria para garantizar que el HTML sea válido y funcione correctamente, evitando problemas de interpretación y seguridad.
@@ -75,19 +87,134 @@ Pasa solucionar este problema, se podría implementar una validación de lado de
 
 d) Descubre si hay alguna otra página que esté afectada por esta misma vulnerabilidad. En caso positivo, explicad cómo lo habéis descubierto.
 
+![XSS_3]()
+
 Otra página afectada sería la de list_players.php, exactamente por el mismo motivo que en el anterior caso. Las cadenas mostradas por pantalla no están sanitizadas, por lo que permitiría a un atacante ejecutar código y se solucionaría de la misma manera, haciendo uso de funciones de saneamiento adecuadas para prevenir dichos ataques.
 
 # Parte 3 - Control de acceso, autenticación y sesiones de usuarios
 
 a) En el ejercicio 1, hemos visto cómo era inseguro el acceso de los usuarios a la aplicación. En la página de register.php tenemos el registro de usuario. ¿Qué medidas debemos implementar para evitar que el registro sea inseguro? Justifica esas medidas e implementa las medidas que sean factibles en este proyecto.
 
+Para asegurarnos de que el registro de la página sea seguro, debemos de implementar las siguientes modificaciones en el código de la página register.php:
 
+- Manejo seguro del lado del servidor: Asegurarnos de que los datos enviados al servidor sean manejados de manera segura. Para ello, deberíamos de validar y sanear los datos del lado del servidor para evitar inyecciones SQL y otros ataques similares.
 
-b) En el apartado de login de la aplicación, también deberíamos implantar una serie de medidas para que sea seguro el acceso, (sin contar la del ejercicio 1.c). Como en el ejercicio anterior, justifica esas medidas e implementa las que sean factibles y necesarias (ten en cuenta las acciones realizadas en el register). Puedes mirar en la carpeta private
+- HTTPS: Usar HTTPS para asegurarnos de que todos los datos enviados y recibidos por la página estén encriptados.
+
+- Contraseñas seguras: Implementar políticas de contraseñas fuertes que requieran combinaciones de caracteres, números y símbolos. Para ello, deberíamos utilizar un algoritmo de hashing seguro para almacenar las contraseñas de manera segura en la base de datos.
+
+- Protección contra CSRF: Implementar tokens CSRF para evitar este tipo de ataques. Para ello, deberíamos implementar los tokens comentados anteriormente para asegurarnos de que las solicitudes que llegan al servidor son legítimas.
+
+- Directivas de seguridad: La cabecera X-UA-Compatible está presente, pero podríamos considerar añadir otras cabeceras de seguridad como Content-Security-Policy para ayudar a mitigar ataques XSS. Para ello, añadiremos la nueva cabecera mencionada anteriormente para que limite las fuentes de contenido ejecutable de la página.
+
+El código corregido quedaría de la siguiente manera:
+
+``` <!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self'">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Práctica RA3 - Players list</title>
+    </head>
+    <body>
+        <header>
+            <h1>Register</h1>
+        </header>
+        <main class="player">
+            <form action="register.php" method="post">
+                <input type="hidden" name="csrf_token" value="token_csrf_generado_servidor">
+                <label>Username:</label>
+                <input type="text" name="username" required>
+                <label>Password:</label>
+                <input type="password" name="password" required minlength="8">
+                <input type="submit" value="Send">
+            </form>
+            <form action="logout.php" method="post">
+                <input type="submit" name="Logout" value="Logout" class="logout">
+            </form>
+            <a href="list_players.php">Back to list</a>
+        </main>
+        <footer class="listado">
+            <img src="images/logo-iesra-cadiz-color-blanco.png" alt="Logo IESRA">
+            <h4>Puesta en producción segura</h4>
+            <p>Please <a href="http://www.donate.co?amount=100&amp;destination=ACMEScouting/">donate</a></p>
+        </footer>
+    </body>
+</html>
+ ```
+
+b) En el apartado de login de la aplicación, también deberíamos implantar una serie de medidas para que sea seguro el acceso, (sin contar la del ejercicio 1.c). Como en el ejercicio anterior, justifica esas medidas e implementa las que sean factibles y necesarias (ten en cuenta las acciones realizadas en el register). Puedes mirar en la carpeta private.
+
+Para asegurarnos de que el registro de la página sea seguro, debemos de implementar casi las mismas modificaciones que aplicamos en el código de la página anterior, pero con la diferencia de que en el código de esta página podríamos añadir atributos "required" a los campos de entrada para asegurar que no se envíen formularios vacíos.
+
+El código corregido quedaría de la siguiente manera:
+
+``` <!doctype html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Práctica RA3 - Authentication page</title>
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; img-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline';">
+</head>
+<body>
+<header class="auth">
+    <h1>Authentication page</h1>
+</header>
+<main class="auth">
+    <div class="message">
+        This page requires you to be logged in.<br>
+    </div>
+    <section>
+        <div>
+            <h2>Login</h2>
+            <form action="login.php" method="post">
+                <label>User</label>
+                <input type="text" name="username" required>
+                <label>Password</label>
+                <input type="password" name="password" required>
+                <input type="submit" value="Login">
+            </form>
+        </div>
+
+        <div>
+            <h2>Logout</h2>
+            <form action="logout.php" method="post">
+                <input type="submit" name="Logout" value="Logout">
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <h4>Puesta en producción segura</h4>
+    <p>Please <a href="http://www.donate.co?amount=100&destination=ACMEScouting/">donate</a></p>
+</footer>
+</body>
+</html>
+ ```
 
 c) Volvemos a la página de register.php, vemos que está accesible para cualquier usuario, registrado o sin registrar. Al ser una aplicación en la cual no debería dejar a los usuarios registrarse, qué medidas podríamos tomar para poder gestionarlo e implementa las medidas que sean factibles en este proyecto.
 
+Para que nadie pudiese registrarse en la página "register.php", bastaría por ejemplo con modificar las siguientes línea de su código HTML:
+
+``` 
+<input type="text" name="username" disabled>
+<input type="password" name="password" disabled>
+<input type="submit" value="Send" disabled>
+```
+
+Lo que hace el código anterior, es eliminar directamente el formulario de registro de la página web.
+
 d) Al comienzo de la práctica hemos supuesto que la carpeta private no tenemos acceso, pero realmente al configurar el sistema en nuestro equipo de forma local. ¿Se cumple esta condición? ¿Qué medidas podemos tomar para que esto no suceda?
+
+
 
 e) Por último, comprobando el flujo de la sesión del usuario. Analiza si está bien asegurada la sesión del usuario y que no podemos suplantar a ningún usuario. Si no está bien asegurada, qué acciones podríamos realizar e implementarlas.
 
