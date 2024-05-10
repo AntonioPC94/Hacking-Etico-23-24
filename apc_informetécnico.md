@@ -214,9 +214,43 @@ Lo que hace el código anterior, es eliminar directamente el formulario de regis
 
 d) Al comienzo de la práctica hemos supuesto que la carpeta private no tenemos acceso, pero realmente al configurar el sistema en nuestro equipo de forma local. ¿Se cumple esta condición? ¿Qué medidas podemos tomar para que esto no suceda?
 
+En este caso sí que tendríamos acceso al contenido de la carpeta private, cosa que tendríamos que solucionar. Una posible solución para este problema sería el uso de .htpaccess (para servidores Apache), los cuales son archivos que guardarán nombres de usuario y contraseñas que serán necesarios para acceder a los directorios que se indiquen en dicho archivo. En este caso se indicaría el directorio “private” y se establecerían unas credenciales de acceso con las que acceder a su contenido.
 
+Esta solución es realmente recomendable de utilizar, ya que si los usuarios tuvieran acceso a estos ficheros podrían aprovecharlos para realizar ataques como inyecciones, etc.
+
+Por lo general, el usuario de una web no debe ver más que los recursos a los que puede acceder legítimamente.
 
 e) Por último, comprobando el flujo de la sesión del usuario. Analiza si está bien asegurada la sesión del usuario y que no podemos suplantar a ningún usuario. Si no está bien asegurada, qué acciones podríamos realizar e implementarlas.
+
+# Parte 4 - Servidores web
+
+¿Qué medidas de seguridad implementaríais en el servidor web para reducir el riesgo a ataques?
+
+Para reducir el riesgo de ataques en un servidor web, es fundamental contar con una estrategia de seguridad sólida que abarque tanto la protección de la infraestructura del servidor, como la aplicación web en si.
+
+- Actualizaciones y parches: Mantener actualizado todo el software del servidor para cerrar vulnerabilidades conocidas.
+
+- Configuración del servidor: Minimizar los servicios innecesarios y asegura una configuración óptima del servidor web para reforzar la seguridad.
+
+- Seguridad de la aplicación web: Implementar una validación rigurosa de las entradas y asegurar las prácticas de autenticación y gestión de sesiones para proteger la aplicación.
+
+- Prácticas de codificación segura: Realizar revisiones de código y educar a los desarrolladores en seguridad para prevenir vulnerabilidades en la aplicación.
+
+- Seguridad de red: Utilizar firewalls y sistemas IDS e IPS para proteger la red y monitorizar la actividad sospechosa.
+
+- Respuesta a incidentes: Desarrollar un plan eficaz para responder rápidamente a incidentes de seguridad y realizar monitoreos constantes.
+
+- Cifrado: Asegurar que todos los datos sensibles estén cifrados tanto en tránsito como en reposo para proteger la confidencialidad e integridad de los datos.
+
+- Respaldo y recuperación: Crear unas políticas de respaldo y recuperación ante desastres para asegurar la continuidad del negocio en caso de ataques o fallos.
+
+Parte 5 - CSRF
+
+Ahora ya sabemos que podemos realizar un ataque XSS. Hemos preparado el siguiente enlace: http://web.pagos/donate.php?amount=100&receiver=attacker, mediante el cual, cualquiera que haga click hará una donación de 100€ al nuestro usuario (con nombre 'attacker') de la famosa plataforma de pagos online 'web.pagos' (Nota: como en realidad esta es una dirección inventada, vuestro navegador os devolverá un error 404).
+
+a) Editad un jugador para conseguir que, en el listado de jugadores (list_players.php) aparezca, debajo del nombre de su equipo y antes de “(show/add comments)” un botón llamado “Profile” que corresponda a un formulario que envíe a cualquiera que haga clic sobre este botón a esta dirección que hemos preparado.
+
+
 
 
 
