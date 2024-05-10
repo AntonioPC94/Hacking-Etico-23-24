@@ -244,14 +244,36 @@ Para reducir el riesgo de ataques en un servidor web, es fundamental contar con 
 
 - Respaldo y recuperación: Crear unas políticas de respaldo y recuperación ante desastres para asegurar la continuidad del negocio en caso de ataques o fallos.
 
-Parte 5 - CSRF
+# Parte 5 - CSRF
 
 Ahora ya sabemos que podemos realizar un ataque XSS. Hemos preparado el siguiente enlace: http://web.pagos/donate.php?amount=100&receiver=attacker, mediante el cual, cualquiera que haga click hará una donación de 100€ al nuestro usuario (con nombre 'attacker') de la famosa plataforma de pagos online 'web.pagos' (Nota: como en realidad esta es una dirección inventada, vuestro navegador os devolverá un error 404).
 
 a) Editad un jugador para conseguir que, en el listado de jugadores (list_players.php) aparezca, debajo del nombre de su equipo y antes de “(show/add comments)” un botón llamado “Profile” que corresponda a un formulario que envíe a cualquiera que haga clic sobre este botón a esta dirección que hemos preparado.
 
+Para ello, nos iremos a la parte donde se editan los jugadores (edit player) y en el campo "Team name", introduciremos el siguiente código HTML:
 
+![CSRF_1]()
 
+``` 
+<br><br><br><br><br><br>
+<form action="http://web.pagos/donate.php" method="GET" target="_blank">
+        <input type="hidden" name="amount" value="100">
+        <input type="hidden" name="receiver" value="attacker">
+        <input type="submit" value="Profile">
+</form> 
+    
+``` 
+Una vez escrito el código, le daremos a "Send" y a "Back to list" para ver los resultados.
+
+![CSRF_2]()
+
+b) Una vez lo tenéis terminado, pensáis que la eficacia de este ataque aumentaría si no necesitara que el usuario pulse un botón. Con este objetivo, cread un comentario que sirva vuestros propósitos sin levantar ninguna sospecha entre los usuarios que consulten los comentarios sobre un jugador (show_comments.php).
+
+c) Pero 'web.pagos' sólo gestiona pagos y donaciones entre usuarios registrados, puesto que, evidentemente, le tiene que restar los 100€ a la cuenta de algún usuario para poder añadirlos a nuestra cuenta.
+
+Explicad qué condición se tendrá que cumplir por que se efectúen las donaciones de los usuarios que visualicen el mensaje del apartado anterior o hagan click en el botón del apartado a).
+
+d) Si 'web.pagos' modifica la página 'donate.php' para que reciba los parámetros a través de POST, quedaría blindada contra este tipo de ataques? En caso negativo, preparad un mensaje que realice un ataque equivalente al de la apartado b) enviando los parámetros “amount” i “receiver” por POST.
 
 
 
