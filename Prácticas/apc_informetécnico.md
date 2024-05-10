@@ -6,7 +6,7 @@ Lo primero que haremos es comprobar que este formulario es vulnerable a una inye
 
 a) Dad un ejemplo de combinación de usuario y contraseña que provoque un error en la consulta SQL generada por este formulario. Apartir del mensaje de error obtenido, decid cuál es la consulta SQL que se ejecuta, cuál de los campos introducidos al formulario utiliza y cuál no.
 
-![SQLI_1]()
+![SQLI_1](img/SQLI_1.png)
 
 | Tabla 1 |   |
 |-------------------------|---|
@@ -29,7 +29,7 @@ b) Gracias a la SQL Injection del apartado anterior, sabemos que este formulario
 
 Dad un ataque que, utilizando este diccionario, nos permita impersonar un usuario de esta aplicación y acceder en nombre suyo. 
 
-![SQLI_2]()
+![SQLI_2](img/SQLI_2.png)
 
 Tened en cuenta que no sabéis ni cuántos usuarios hay registrados en la aplicación, ni los nombres de estos.
 
@@ -69,11 +69,11 @@ a) Para ver si hay un problema de XSS, crearemos un comentario que muestre un al
 
 ## Mensaje
 
-![XSS_1]()
+![XSS_1](img/XSS_1.png)
 
 ## Alerta
 
-![XSS_2]()
+![XSS_2](img/XSS_2.png)
 
 b) Por qué dice "&" cuando miráis un link (como el que aparece a la portada de esta aplicación pidiendo que realices un donativo) con parámetros GET dentro de código html si en realidad el link es sólo con "&"?
 
@@ -87,7 +87,7 @@ Pasa solucionar este problema, se podría implementar una validación de lado de
 
 d) Descubre si hay alguna otra página que esté afectada por esta misma vulnerabilidad. En caso positivo, explicad cómo lo habéis descubierto.
 
-![XSS_3]()
+![XSS_3](img/XSS_3.png)
 
 Otra página afectada sería la de list_players.php, exactamente por el mismo motivo que en el anterior caso. Las cadenas mostradas por pantalla no están sanitizadas, por lo que permitiría a un atacante ejecutar código y se solucionaría de la misma manera, haciendo uso de funciones de saneamiento adecuadas para prevenir dichos ataques.
 
@@ -252,7 +252,7 @@ a) Editad un jugador para conseguir que, en el listado de jugadores (list_player
 
 Para ello, nos iremos a la parte donde se editan los jugadores (edit player) y en el campo "Team name", introduciremos el siguiente código HTML:
 
-![CSRF_1]()
+![CSRF_1](img/CSRF_1.png)
 
 ``` 
 <br><br><br><br><br><br>
@@ -265,7 +265,7 @@ Para ello, nos iremos a la parte donde se editan los jugadores (edit player) y e
 ``` 
 Una vez escrito el código, le daremos a "Send" y a "Back to list" para ver los resultados.
 
-![CSRF_2]()
+![CSRF_2](img/CSRF_1.png)
 
 b) Una vez lo tenéis terminado, pensáis que la eficacia de este ataque aumentaría si no necesitara que el usuario pulse un botón. Con este objetivo, cread un comentario que sirva vuestros propósitos sin levantar ninguna sospecha entre los usuarios que consulten los comentarios sobre un jugador (show_comments.php).
 
